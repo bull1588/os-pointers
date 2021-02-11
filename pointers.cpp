@@ -154,9 +154,10 @@ double promptDouble(std::string message, double min, double max)
     		cout << "Sorry, I cannot understand your answer\n";
    	  }
    	  
-     }
    	  failflag = 0;
      }
+     
+
    
     return result;  
 }
